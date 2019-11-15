@@ -1,0 +1,52 @@
+.image-loading {
+    width: 5em;
+    height: 5em;
+    margin-left: 1em; 
+}
+
+.sprite-too-many-requests {
+    display: none;
+}
+
+.sprite-image-ready {
+    display: 'block';
+}
+
+.sprite-image-ready {
+    display: 'block';
+}
+
+h6.card-title {
+    padding-bottom: 10px;
+}
+
+
+.card-header {
+    margin-left: 14px;
+    margin-top: 10px;
+    border-bottom: 1px solid yellowgreen;
+    width: 73%;
+    background-color: yellow;
+    border-radius: 7px;
+    padding-left: 38px;
+  }
+  
+  .card-body {
+    position: relative;
+    border-top: 1px solid yellowgreen;
+    margin-top: -1vh;
+    background-color: blue;
+    width: 100%;
+    padding-left: 37px;
+    color: white;
+}
+  
+  .dashboard {
+    width: 20%;
+    border: 2px solid powderblue;
+    border-radius: 8px;
+    margin-bottom: 9px;
+    margin-right: 1px;
+    background-color: #ffcb05;
+    height: 29vh;
+  }

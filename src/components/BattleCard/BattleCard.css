@@ -1,0 +1,123 @@
+button > * {
+    pointer-events: none;
+  }
+.BattleCard {
+    border-radius: 10px;
+    background-color: #ffcb05;
+    padding: 10px;
+    width: 25% !important;
+    margin: auto;
+}
+.BattleCard__content {
+    background-color: #2a75bb;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.BattleCard__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.BattleCard__info div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BattleCard__info-pv,
+.BattleCard__info-name {
+    font-size: 1.5em;
+    margin: 0;
+    margin-right: 10px;
+    font-weight: 600;
+    font-family: 'Roboto';
+    text-transform: capitalize;
+}
+
+.BattleCard__avatar {
+    width: 70%;
+    max-width: 70%;
+    transform: scale(1.5);
+    height: auto;
+    margin:auto;
+    max-height: 250px;
+    margin-bottom: 15px;
+}
+
+.BattleCard__desc {
+    margin:auto;
+    margin-bottom: 15px;
+}
+
+.BattleCard__desc {
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: 400;
+    font-family: 'Roboto';
+    padding: 25px;
+}
+
+.BattleCard__atks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BattleCard__atks-panel {
+    padding: 15px;
+    border: solid 2px #ffcb05;
+    background-color: #3c5aa6;
+    width: 80%;
+    font-size: 1.1em;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.BattleCard__atks-panel-name{
+    display:flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+.BattleCard__atks-panel-name img{
+    margin-right: 10px;
+}
+.type--image{
+    margin: 2.5px;
+}
+.element-animation {
+    animation: animationVS linear 3s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    animation-fill-mode: forwards;
+}
+@keyframes animationVS {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    17% {
+        transform: translate(3px, -3px);
+    }
+
+    33% {
+        transform: translate(1px, 0px);
+    }
+
+    50% {
+        transform: translate(-2px, -6px);
+    }
+
+    67% {
+        transform: translate(1px, 0px);
+    }
+
+    100% {
+        transform: translate(1px, 0px);
+    }
+}

@@ -1,0 +1,30 @@
+@import "~sanitize.css";
+
+@font-face {
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+@font-face{
+  font-family:"PokemonSolid";
+  src:local('PokemonSolid'),
+  url('./fonts/Pokemon_Solid.ttf') format('truetype');
+ }
+
+img {
+  display: unset !important;
+  box-sizing: border-box;
+}
+
