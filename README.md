@@ -1,3 +1,6 @@
+## Development repository
+https://github.com/WildCodeSchool/wild-fighting/tree/dev
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
